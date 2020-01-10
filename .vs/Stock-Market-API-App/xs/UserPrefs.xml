@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{A581FB9E-5FD5-49A1-B123-CA65481C49DB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Stock-Market-API-App/appsettings.Development.json">
+    <Files>
+      <File FileName="Stock-Market-API-App/appsettings.Development.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Stock-Market-API-App" expanded="True">
+            <Node name="Stock-Market-API-App" expanded="True">
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True">
+                <Node name="appsettings.Development.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Stock-Market-API-App PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>
