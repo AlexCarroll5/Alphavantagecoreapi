@@ -20,6 +20,7 @@ namespace Stock_Market_API_App.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
 

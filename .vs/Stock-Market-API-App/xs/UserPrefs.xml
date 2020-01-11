@@ -1,17 +1,29 @@
 ﻿<Properties StartupConfiguration="{A581FB9E-5FD5-49A1-B123-CA65481C49DB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Stock-Market-API-App/appsettings.Development.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Stock-Market-API-App/Models/StocksViewModel.cs">
     <Files>
-      <File FileName="Stock-Market-API-App/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Stock-Market-API-App/Controllers/StocksController.cs" Line="43" Column="10" />
+      <File FileName="Stock-Market-API-App/Models/StocksViewModel.cs" Line="19" Column="45" />
+      <File FileName="Stock-Market-API-App/Views/Stocks/Index.cshtml" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Stock-Market-API-App" expanded="True">
             <Node name="Stock-Market-API-App" expanded="True">
-              <Node name="wwwroot" expanded="True" />
-              <Node name="appsettings.json" expanded="True">
-                <Node name="appsettings.Development.json" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="StocksViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Stocks" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -21,8 +33,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/mitchdorsey/Projects/Alphavantagecoreapi/Stock-Market-API-App/Controllers/StocksController.cs" relfile="Stock-Market-API-App/Controllers/StocksController.cs" line="32" column="1" />
+      <Breakpoint file="/Users/mitchdorsey/Projects/Alphavantagecoreapi/Stock-Market-API-App/Controllers/StocksController.cs" relfile="Stock-Market-API-App/Controllers/StocksController.cs" line="42" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Stock-Market-API-App PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Stock-Market-API-App PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

@@ -1,0 +1,30 @@
+﻿@model List<Stock_Market_API_App.Models.StocksViewModel.StockInfo>;
+
+
+<table>
+    <tr>
+        <th>Symbol</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Region</th>
+        <th>Market Open</th>
+        <th>Market Close</th>
+        <th>Time Zone</th>
+        <th>Currency</th>
+    </tr>
+
+@foreach(Stock_Market_API_App.Models.StocksViewModel.StockInfo stock in Model)
+{
+    <tr>
+        <td>@stock.Symbol</td>
+        <td>@stock.Name</td>
+        <td>@stock.Type</td>
+        <td>@stock.Region</td>
+        <td>@stock.MarketOpen</td>
+        <td>@stock.MarketClose</td>
+        <td>@stock.TimeZone</td>
+        <td>@stock.Currency</td>
+    </tr>
+}
+
+</table>
