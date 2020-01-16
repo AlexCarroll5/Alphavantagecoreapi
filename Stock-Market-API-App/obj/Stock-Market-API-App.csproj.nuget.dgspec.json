@@ -1,28 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mitchdorsey/Projects/Alphavantagecoreapi/Stock-Market-API-App/Stock-Market-API-App.csproj": {}
+    "C:\\Users\\alexc\\OneDrive\\Desktop\\AlphaVantageAPI\\Alphavantagecoreapi\\Stock-Market-API-App\\Stock-Market-API-App.csproj": {}
   },
   "projects": {
-    "/Users/mitchdorsey/Projects/Alphavantagecoreapi/Stock-Market-API-App/Stock-Market-API-App.csproj": {
+    "C:\\Users\\alexc\\OneDrive\\Desktop\\AlphaVantageAPI\\Alphavantagecoreapi\\Stock-Market-API-App\\Stock-Market-API-App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mitchdorsey/Projects/Alphavantagecoreapi/Stock-Market-API-App/Stock-Market-API-App.csproj",
+        "projectUniqueName": "C:\\Users\\alexc\\OneDrive\\Desktop\\AlphaVantageAPI\\Alphavantagecoreapi\\Stock-Market-API-App\\Stock-Market-API-App.csproj",
         "projectName": "Stock-Market-API-App",
-        "projectPath": "/Users/mitchdorsey/Projects/Alphavantagecoreapi/Stock-Market-API-App/Stock-Market-API-App.csproj",
-        "packagesPath": "/Users/mitchdorsey/.nuget/packages/",
-        "outputPath": "/Users/mitchdorsey/Projects/Alphavantagecoreapi/Stock-Market-API-App/obj/",
+        "projectPath": "C:\\Users\\alexc\\OneDrive\\Desktop\\AlphaVantageAPI\\Alphavantagecoreapi\\Stock-Market-API-App\\Stock-Market-API-App.csproj",
+        "packagesPath": "C:\\Users\\alexc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexc\\OneDrive\\Desktop\\AlphaVantageAPI\\Alphavantagecoreapi\\Stock-Market-API-App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/mitchdorsey/.config/NuGet/NuGet.Config"
+          "C:\\Users\\alexc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,8 +67,16 @@
               "version": "[3.0.1, 3.0.1]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -76,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

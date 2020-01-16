@@ -20,10 +20,42 @@ namespace Stock_Market_API_App.Controllers
         public IActionResult Index()
         {
             var client = new RestClient("https://www.alphavantage.co");
+            // function, symbol, interval, apikey
+            // keyword, from_currency, to_currency
+            // from_symbol, to_symbol
+            // market
+            //time_period, series_type
+            const string apikey = "N35AW0V3OLU4VFYP";
+            string keyword = "W";
+            string function = "SYMBOL_SEARCH";
+            string symbol = "";
+            string interval = "";
+            string from_currency = "";
+            string to_currency = "";
+            string from_symbol = "";
+            string to_symbol = "";
+            string market = "";
+            string time_period = "";
+            string series_type = "";
 
-            RestRequest request = new RestRequest("query?function=SYMBOL_SEARCH&keywords=BA&apikey=demo", Method.GET);
+            //RestRequest request = new RestRequest("query?function=SYMBOL_SEARCH&keywords=BA&apikey=demo", Method.GET);
+            RestRequest request = new RestRequest("query?", Method.GET);
+            
+            request.AddParameter("apikey", apikey);
+            request.AddParameter("keywords", keyword);
+            request.AddParameter("function", function);
+            
+            request.AddParameter("symbol", symbol);
+            request.AddParameter("interval", interval);
+            request.AddParameter("from_currency", from_currency);
+            request.AddParameter("to_currency", to_currency);
+            request.AddParameter("from_symbol", from_symbol);
+            request.AddParameter("to_symbol", to_symbol);
+            request.AddParameter("market", market);
+            request.AddParameter("time_period", time_period);
+            request.AddParameter("series_type", series_type);
+
             request.AddHeader("Accept", "application/json");
-
             var response = client.Execute(request);
 
             var content = response.Content;
